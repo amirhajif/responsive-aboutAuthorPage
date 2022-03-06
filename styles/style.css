@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600;800&display=swap");
+
+/* DEFINE VARIABLES FOR COLORS */
+:root {
+  --brand: #6f1df4;
+  --primary: black;
+  --Background: #f3f5f6;
+  --Text-secondary: rgba(60, 60, 67, 0.85);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: var(--Background);
+}
+
+.container {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.profile-img img {
+  width: 478px;
+  height: 478px;
+}
+
+.author {
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 478px;
+  height: 478px;
+
+  padding: 1.5%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+  color: var(--brand);
+}
+
+.author-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+  margin-bottom: 1rem;
+
+  color: var(--primary);
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+
+  color: var(--Text-secondary);
+  margin-bottom: 2rem;
+}

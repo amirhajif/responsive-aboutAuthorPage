@@ -1,0 +1,25 @@
+/* hide author typo div */
+.author-typo {
+  display: none;
+}
+
+/* change direction to column in mobile size */
+.main {
+  flex-direction: column;
+}
+/* change size of image div in mobile size */
+.profile-img {
+  width: 95vw;
+
+  padding: 0.75rem;
+}
+
+/* change size of image in mobile size */
+.profile-img img {
+  width: 100%;
+}
+
+/* change size of author div in mobiel size*/
+.author {
+  width: 90vw;
+}
